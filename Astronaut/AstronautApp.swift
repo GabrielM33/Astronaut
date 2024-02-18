@@ -10,8 +10,14 @@ import SwiftUI
 @main
 struct AstronautApp: App {
     var body: some Scene {
-        WindowGroup {
+        //Window
+        WindowGroup (id: "Window") {
             ContentView()
         }
+        
+        WindowGroup (id: "Volume") {
+            AstronautExperience()
+        }
+        .windowStyle(.volumetric)
     }
 }

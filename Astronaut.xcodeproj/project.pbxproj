@@ -12,6 +12,7 @@
 		AF4066062B82B131006D5F42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4066052B82B131006D5F42 /* ContentView.swift */; };
 		AF4066082B82B133006D5F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4066072B82B133006D5F42 /* Assets.xcassets */; };
 		AF40660B2B82B133006D5F42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF40660A2B82B133006D5F42 /* Preview Assets.xcassets */; };
+		AF4066142B82B741006D5F42 /* AstronautExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4066132B82B741006D5F42 /* AstronautExperience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		AF4066072B82B133006D5F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF40660A2B82B133006D5F42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF40660C2B82B133006D5F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4066122B82B58A006D5F42 /* CosmonautSuit_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit_en.reality; sourceTree = "<group>"; };
+		AF4066132B82B741006D5F42 /* AstronautExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautExperience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +59,10 @@
 		AF4065FE2B82B131006D5F42 /* Astronaut */ = {
 			isa = PBXGroup;
 			children = (
+				AF4066122B82B58A006D5F42 /* CosmonautSuit_en.reality */,
 				AF4066032B82B131006D5F42 /* AstronautApp.swift */,
 				AF4066052B82B131006D5F42 /* ContentView.swift */,
+				AF4066132B82B741006D5F42 /* AstronautExperience.swift */,
 				AF4066072B82B133006D5F42 /* Assets.xcassets */,
 				AF40660C2B82B133006D5F42 /* Info.plist */,
 				AF4066092B82B133006D5F42 /* Preview Content */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4066142B82B741006D5F42 /* AstronautExperience.swift in Sources */,
 				AF4066062B82B131006D5F42 /* ContentView.swift in Sources */,
 				AF4066042B82B131006D5F42 /* AstronautApp.swift in Sources */,
 			);
