@@ -19,9 +19,9 @@ struct ContentView: View {
             Image("Astronaut")
                 .resizable()
                 .scaledToFill()
+                
             // Button
             Button("Explore More") {
-                // Action
                 openWindow(id: "Volume")
             }
             .controlSize(.extraLarge)

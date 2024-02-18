@@ -9,8 +9,10 @@ import SwiftUI
 import RealityKit
 
 struct AstronautExperience: View {
+    
     var body: some View {
-        RealityView { content in
+        
+            RealityView { content in
             // Load astronau model (entity)
             if let astronautEntity = try? await Entity(named: "Astronaut") {
               
